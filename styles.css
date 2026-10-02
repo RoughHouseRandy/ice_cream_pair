@@ -46,7 +46,9 @@ label[for="comment"] {
     margin-top:.75rem;
 }
 
-
+textarea {
+    resize:none;
+}
 
 
 

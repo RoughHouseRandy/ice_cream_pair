@@ -6,11 +6,47 @@ body {
     background-color: whitesmoke;
     margin:0;
 }
-main , header{
+
+main, header{
     margin: 0 auto;
     width: 70%;
 }
 
 header, legend {
     text-align:center;
+    color:darkgreen;
 }
+
+input[type="text"], input[type="email"],select, textarea{
+    width:100%;
+    display:block; 
+    border-radius:.25rem;
+    margin:0rem 0rem 1rem 0rem;
+    padding:.75rem;
+}
+#flavors {
+    margin-top:.25rem;
+}
+button {
+    border:none;
+    border-radius:.25em;
+    background-color:darkgreen;
+    color:white;
+    width:100%;
+    padding:.5rem;
+    margin-top:.5rem;
+}
+
+p {
+    margin: .75rem 0rem 0rem;
+}
+
+label[for="comment"] {
+    display:block;
+    margin-top:.75rem;
+}
+
+
+
+
+

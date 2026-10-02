@@ -15,6 +15,11 @@ main, header{
 header, legend {
     text-align:center;
     color:darkgreen;
+    font-weight:bold;
+}
+
+img {
+    max-width:5rem;
 }
 
 input[type="text"], input[type="email"],select, textarea{
@@ -35,6 +40,7 @@ button {
     width:100%;
     padding:.5rem;
     margin-top:.5rem;
+    font-weight:bold;
 }
 
 p {

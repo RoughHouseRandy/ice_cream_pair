@@ -1,0 +1,16 @@
+* {
+box-sizing:border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    margin:0;
+}
+main , header{
+    margin: 0 auto;
+    width: 70%;
+}
+
+header, legend {
+    text-align:center;
+}

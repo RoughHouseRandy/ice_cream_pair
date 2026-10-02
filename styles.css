@@ -10,7 +10,11 @@ body {
 main, header{
     margin: 0 auto;
     width: 70%;
-    background-color:whitesmoke
+    background-color:white;
+}
+
+main {
+    padding:0 1rem 2rem 1rem;
 }
 
 header, legend {

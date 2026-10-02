@@ -3,13 +3,14 @@ box-sizing:border-box;
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: lightcyan;
     margin:0;
 }
 
 main, header{
     margin: 0 auto;
     width: 70%;
+    background-color:whitesmoke
 }
 
 header, legend {
@@ -19,7 +20,7 @@ header, legend {
 }
 
 img {
-    max-width:5rem;
+    max-width:4rem;
 }
 
 input[type="text"], input[type="email"],select, textarea{
